@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Class</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <!-- <img src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=600" alt="logo"> -->
+             <p>My Logo</p>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About US</li>
+                <li>Technology</li>
+                <li>Career</li>
+                <li>Contact US</li>
+            </ul>
+        </div>
+        <div>
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h2>Hero Section</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, ab! Sunt, enim. Consequatur, at dicta optio corporis, 
+                quidem enim mollitia eaque fugit non, rerum assumenda laborum labore maiores quis esse veniam quod nisi dolorum vero 
+                aut dolores dolor fugiat eveniet vitae. Nostrum tempore repudiandae deleniti dolores! Amet tempora rerum libero vitae 
+                molestias dolore minima consequuntur? Earum similique aliquam officia ut ipsa aperiam aliquid aspernatur veritatis 
+                alias, suscipit reprehenderit quidem fugit nemo voluptatibus et recusandae! Sequi rem nostrum repellat ea blanditiis!
+            </p>
+            <button>Click Me</button>
+        </div>
+        <div>
+            <img src="" alt="hero img">
+        </div>
+    </section>
+
+    <h2 class="client-text">Out Client</h2>
+    <section>
+        <div></div>
+    </section>
+
+    <section class="details-card">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/5439443/pexels-photo-5439443.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores rem nisi magnam, enim natus.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/5439443/pexels-photo-5439443.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores rem nisi magnam, enim natus.</p>
+        </div>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/5439443/pexels-photo-5439443.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores rem nisi magnam, enim natus.</p>
+        </div>
+    </section>
+</body>
+</html>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav {
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 20px;
+        color: #fff;
+        background-color: #222222;
+    }
+    nav div ul{
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    button {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: antiquewhite;
+        color: #000;
+    }
+    .hero{
+        display: flex;
+    }
+    .hero div img{
+
+    }
+
+    .client-text {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 42px;
+    }
+
+    .details-card {
+        display: flex;
+    }
+    .card {
+        width: 50px;    
+    }
+    .card img{
+        width: 200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* media query  */
+
+    @media screen and (max-width: 976px) {
+        .details-card {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .details-card div {
+            width: 80%;
+        }
+    }
+</style>
