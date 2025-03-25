@@ -60,3 +60,14 @@ function countBoxes(totalBars, barsPerBox) {
 // * Hint 1 : Use a loop to go through each element in the array of water amounts and add each one to the total. 
 // Don't forget to initialize the total as 0 at the start.
 
+function totalWater(waterAmounts) {
+    let total = 0; // Initialize total to 0
+
+    for (let i = 0; i < waterAmounts.length; i++) {
+        total += waterAmounts[i]; // Add each bottle's water amount to total
+    }
+
+    return total;
+}
+
+// 05.
