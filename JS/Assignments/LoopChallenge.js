@@ -51,7 +51,6 @@ function countBoxes(totalBars, barsPerBox) {
 
 
 
-
 // 04. JS Loops
 // You're preparing for a picnic and need to fill several water bottles. Each bottle requires a different amount of water, 
 // but you're going to fill them one by one. How do you track the amount of water you're adding to each bottle?
@@ -70,4 +69,11 @@ function totalWater(waterAmounts) {
     return total;
 }
 
-// 05.
+
+
+// 05. JS Loops
+// You're tracking the number of steps you take during a workout. Each time you take a step, you want to count it. You keep 
+// stepping until you've reached a certain number of steps.
+// Create a function that uses a loop to count the number of steps during a workout. The loop should continue until you reach 
+// the target step count.
+
