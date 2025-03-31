@@ -77,3 +77,12 @@ function totalWater(waterAmounts) {
 // Create a function that uses a loop to count the number of steps during a workout. The loop should continue until you reach 
 // the target step count.
 
+function countSteps(targetSteps) {
+    let steps = 0;
+  
+    for (let i = 0; i < targetSteps; i++) {
+        steps++;
+    }
+  
+    return steps;
+}
