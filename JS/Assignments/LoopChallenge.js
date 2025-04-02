@@ -96,3 +96,19 @@ function countSteps(targetSteps) {
 // Create a function that takes an array of days (e.g., ["Monday", "Tuesday", "Friday"]) and returns the number of days you're working. 
 // "Saturday" and "Sunday" are not working days.
 
+function countWorkingDays(days) {
+    let workingDays = 0;
+    const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; 
+  
+    for (let day of days) {
+      if (weekdays.includes(day)) {
+        workingDays++;
+      }
+    }
+  
+    return workingDays;
+  }
+  
+  // Example usage: 
+  const workSchedule = ["Monday", "Tuesday", "Friday", "sunday"];
+  console.log(countWorkingDays(workSchedule)); // Output: 3
