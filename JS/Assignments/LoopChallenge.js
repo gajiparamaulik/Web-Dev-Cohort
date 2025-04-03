@@ -103,7 +103,10 @@ function countWorkingDays(days) {
     for (let day of days) {
       if (weekdays.includes(day)) {
         workingDays++;
-      }
+      } 
+    //   else if () {
+
+    //   }
     }
   
     return workingDays;
