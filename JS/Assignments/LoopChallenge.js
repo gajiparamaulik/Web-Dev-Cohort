@@ -112,3 +112,7 @@ function countWorkingDays(days) {
   // Example usage: 
   const workSchedule = ["Monday", "Tuesday", "Friday", "sunday"];
   console.log(countWorkingDays(workSchedule)); // Output: 3
+
+
+
+  
