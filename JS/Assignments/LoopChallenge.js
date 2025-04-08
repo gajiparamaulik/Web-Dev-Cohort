@@ -121,3 +121,12 @@ function countWorkingDays(days) {
 // Problem Statement:
 // Create a function that takes an array of arrays (representing the number of stars in each level) and returns the total number 
 // of stars.
+
+
+
+
+
+// 08. JS Loops
+// You're shopping for groceries and want to know the total cost of all the items in your cart. You have an array of item prices.
+// Problem Statement:
+// Create a function that takes an array of item prices and returns the total cost.
