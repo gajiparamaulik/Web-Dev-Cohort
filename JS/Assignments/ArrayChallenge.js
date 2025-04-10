@@ -6,3 +6,9 @@
 // Problem Statement: Create a function that adds a new guest list and returns the updated list.
 // Hint 1
 // Use the method that allows you to add an item at the end of an array.
+
+
+function addGuest(guestList, newGuest) {
+    guestList.push(newGuest);
+    return guestList;
+}
