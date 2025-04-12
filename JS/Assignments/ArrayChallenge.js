@@ -37,4 +37,7 @@ function eatCandy(candyJar) {
 // Hint 1
 // Think of a method that adds an item to the beginning of an array.
 
-
+function addPuppy(queue, puppyName) {
+    queue.unshift(puppyName);
+    return queue;
+}
