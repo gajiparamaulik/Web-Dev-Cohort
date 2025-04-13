@@ -34,10 +34,17 @@ function eatCandy(candyJar) {
 // Easy Hints
 // A puppy named Max was playing in the park, but he went to the first position of the queue instead of waiting at the end. You need to add Max at the beginning of the queue.
 // Problem Statement: Create a function that adds a puppy to the front of the queue and returns the updated queue.
-// Hint 1
 // Think of a method that adds an item to the beginning of an array.
 
 function addPuppy(queue, puppyName) {
     queue.unshift(puppyName);
     return queue;
 }
+
+
+
+
+// 04. JS Arrays
+// Easy Hints
+// A school bus has students inside, but the first student in line needs to get off at the next stop. Remove the first student from the bus.
+// Problem Statement: Create a function that removes the first student from the bus and returns the updated list.
