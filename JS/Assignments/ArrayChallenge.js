@@ -45,7 +45,7 @@ function addPuppy(queue, puppyName) {
 
 
 // 04. JS Arrays
-// Easy Hints
+// Easy
 // A school bus has students inside, but the first student in line needs to get off at the next stop. Remove the first student from the bus.
 // Problem Statement: Create a function that removes the first student from the bus and returns the updated list.
 
@@ -54,3 +54,16 @@ function removeStudent(bus) {
     bus.shift(); 
     return bus;
 }
+
+
+
+
+
+// 05. JS Arrays
+// Easy
+// Your bookshelf is a mess! You need to arrange the books in alphabetical order.
+// Problem Statement: Create a function that sorts the books alphabetically and returns the updated list.
+
+
+
+
