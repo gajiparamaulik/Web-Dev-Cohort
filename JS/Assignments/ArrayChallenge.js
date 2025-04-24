@@ -74,3 +74,10 @@ function removeStudent(bus) {
 // Problem statement: Create a function that removes unhealthy food items (those containing "Burger") and returns the updated list.
 
 
+
+
+// 07. JS Arrays
+// Easy
+// You lost your phone in a list of items. Find the index of "Phone".
+// Problem Statement: Create a function that finds the index of "Phone" in the list of items and returns the index.
+
