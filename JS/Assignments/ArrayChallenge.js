@@ -87,3 +87,11 @@ function removeStudent(bus) {
 // Easy
 // You wrote a love letter, but you want to insert your partner's name at the beginning of the message.
 // Problem Statement: Create a function that inserts the partner's name at the start of the message and returns the updated message.
+
+
+
+
+// 09. JS Arrays
+// Easy
+// A new VIP guest arrives at the club and should be at the front of the queue. Add them to the beginning of the list. 
+// Problem Statement: Create a function that adds a VIP guest to the front of the queue and returns the updated list.
