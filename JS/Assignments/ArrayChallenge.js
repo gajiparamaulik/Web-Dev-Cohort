@@ -81,3 +81,9 @@ function removeStudent(bus) {
 // You lost your phone in a list of items. Find the index of "Phone".
 // Problem Statement: Create a function that finds the index of "Phone" in the list of items and returns the index.
 
+
+
+// 08. JS Arrays
+// Easy
+// You wrote a love letter, but you want to insert your partner's name at the beginning of the message.
+// Problem Statement: Create a function that inserts the partner's name at the start of the message and returns the updated message.
