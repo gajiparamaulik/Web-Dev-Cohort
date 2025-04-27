@@ -95,3 +95,11 @@ function removeStudent(bus) {
 // Easy
 // A new VIP guest arrives at the club and should be at the front of the queue. Add them to the beginning of the list. 
 // Problem Statement: Create a function that adds a VIP guest to the front of the queue and returns the updated list.
+
+
+
+
+// 10. JS Arrays
+// Easy
+// You and your friends are making a list of movies to watch. You want to check how many movies are in the list.
+// Problem Statement: Create a function that returns the number of movies in the movie list.
