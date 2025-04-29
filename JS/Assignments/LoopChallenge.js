@@ -134,7 +134,9 @@ function totalStars(starLevels) {
 // Problem Statement:
 // Create a function that takes an array of item prices and returns the total cost.
 
-
+function totalPrice(prices) {
+  
+}
 
 
 // 09. JS Loops
