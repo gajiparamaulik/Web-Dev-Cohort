@@ -158,6 +158,9 @@ function totalPrice(prices) {
 // ***
 // *
 
+function shinyDiamondRug(n) {
+  
+}
 
 
 
