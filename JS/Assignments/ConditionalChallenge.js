@@ -172,7 +172,7 @@ function convertTemperature(value, scale) {
         default:
             return "Invalid Scale";
     }
-}
+} 
 
 
 // 10. JS Conditionals
