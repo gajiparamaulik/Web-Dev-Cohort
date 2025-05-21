@@ -45,3 +45,16 @@
 // Challenge
 // • Implement a constructor function Playlist that initializes an empty songs array.
 // • Attach a method addSong(song) to its prototype that adds the song to the songs array.
+
+
+
+
+// 05. JS Prototype
+// Medium -Hints
+// Problem statement
+// Create a Shopping Cart system where items can be added with a price. Implement a method getTotalPrice() that calculates 
+// the total price of all items in the cart.
+// Challenge
+// Implement a constructor function ShoppingCart that initializes an empty items array.
+// • Attach addItem(price) to the prototype to add items.
+// • Attach getTotalPrice() to calculate the total price of items.
