@@ -19,3 +19,17 @@
 // Challenge
 // • Implement a constructor function Robot that initializes name and batteryLevel.
 // • Attach a method charge() to its prototype that increases batteryLevel by 20, ensuring it does not go above 100.
+
+
+
+
+// 03. JS Prototype
+// Easy -Hints
+// Problem statement
+// You need to create a Counter constructor function that initializes a count property to 0. The counter should have 
+// two prototype methods:
+// • increment() increases the count by 1.
+// • decrement() decreases the count by 1.
+// Challenge
+// • Implement a constructor function Counter that initializes count to
+// • Attach increment () and decrement() methods to the prototype.
