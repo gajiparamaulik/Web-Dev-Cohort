@@ -33,3 +33,15 @@
 // Challenge
 // • Implement a constructor function Counter that initializes count to
 // • Attach increment () and decrement() methods to the prototype.
+
+
+
+
+// 04. JS Prototype
+// Easy Hints
+// Problem statement
+// Create a playlist constructor that initializes with an empty songs array. Add a method addSong(song) to the prototype 
+// that adds a new song to the playlist.
+// Challenge
+// • Implement a constructor function Playlist that initializes an empty songs array.
+// • Attach a method addSong(song) to its prototype that adds the song to the songs array.
