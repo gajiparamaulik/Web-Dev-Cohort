@@ -94,3 +94,17 @@
 // Challenge
 // • Implement Employee constructor with name, position, and salary
 // • Attach applyBonus (percent) to the prototype to increase salary.
+
+
+
+
+
+// 08. JS Prototype
+// Medium - Hints
+// Problem statement
+// Create a Library constructor that initializes a books array. Implement:
+// • addBook(book): Adds a book to the books array.
+// • findBook(title): Searches for a book by title and returns "Book found" or "Book not found".
+// Challenge
+// • Implement Library constructor with a books array.
+// • Attach addBook (book) and findBook (title) methods to the prototype.
