@@ -9,7 +9,6 @@
 
 
 
-
 // 02. JS Prototype
 // Easy **Hints
 // Problem statement
@@ -18,7 +17,6 @@
 // Challenge
 // • Implement a constructor function Robot that initializes name and batteryLevel.
 // • Attach a method charge() to its prototype that increases batteryLevel by 20, ensuring it does not go above 100.
-
 
 
 
