@@ -1,4 +1,3 @@
-
 // 01. JS Prototype
 // Easy **Hints
 // Problem statement
