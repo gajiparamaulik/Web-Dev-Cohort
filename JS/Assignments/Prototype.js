@@ -120,3 +120,6 @@
 // Challenge
 // • Implement BankAccount constructor with accountNumber, holderName, and balance.
 // • Attach deposit (amount), withdraw(amount), and transfer (amount, targetAccount) methods to the prototype.
+
+
+
