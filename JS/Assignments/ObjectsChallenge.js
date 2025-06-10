@@ -22,3 +22,15 @@
 // Constraints
 // ⚫ car should be a valid object with at least brand and model properties.
 // ⚫ color should be a non-empty string, otherwise return "Invalid color".
+
+
+
+
+// 03. JS Objects
+// Easy Statement
+// You are building an online shopping platform. Some products have discounts, and some don't. 
+// You need to check whether a product object contains a discount property.
+// Challenge
+// Write a function that checks if a product object has a discount property and returns true or false.
+// Constraints
+// product should be a valid object.
