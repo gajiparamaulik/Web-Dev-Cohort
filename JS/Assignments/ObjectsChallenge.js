@@ -34,3 +34,16 @@
 // Write a function that checks if a product object has a discount property and returns true or false.
 // Constraints
 // product should be a valid object.
+
+
+
+
+// 04. JS Objects
+// Easy Statement
+// For security reasons, when a user logs out, their password should be removed from the user object before storing it in logs 
+// or analytics.
+// Challenge
+// Write a function that removes the password property from a user object and returns the updated object.
+// Constraints
+// ⚫ user should be a valid object with at least a username and password.
+// • If password does not exist, return the object as it is.
