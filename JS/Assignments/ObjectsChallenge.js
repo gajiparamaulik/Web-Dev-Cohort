@@ -74,3 +74,17 @@
 // • Both inputs should be valid objects.
 // • If an object is empty, return the other object as it is.
 // • If both objects are empty, return {}.
+
+
+
+
+// 07. JS Objects
+// Medium Statement
+// You are working on a system that stores product details in an object. However, for some functionalities, the data needs to 
+// be in an array format.
+// Challenge
+// Write a function that converts an object into an array of key-value pairs. Each element in the array should be an array where 
+// the first item is the key and the second item is the value.
+// Constraints
+// • The input should be a valid object.
+// • If the object is empty, return an empty array.
