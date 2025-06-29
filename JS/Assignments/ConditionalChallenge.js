@@ -156,7 +156,6 @@ function checkNumberType(num) {
 
 
 
-
 // 09. JS Conditionals
 // Given a temperature and a scale ("C" or "F"), convert it to the other scale.
 // Problem Statement:
