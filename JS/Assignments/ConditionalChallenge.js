@@ -131,8 +131,6 @@ function getDayOfWeek(day) {
             return "Saturday";
         case 7:
             return "Sunday";
-        default:
-            return "Invalid Day";
     }
 }
 
