@@ -141,7 +141,6 @@ function getDayOfWeek(day) {
 // Problem Statement:
 // Write a function that uses if-else to classify a number.
 
-
 function checkNumberType(num) { 
     if (num > 0) {
         return "Positive";
