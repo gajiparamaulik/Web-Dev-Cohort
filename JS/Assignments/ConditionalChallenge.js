@@ -158,7 +158,6 @@ function checkNumberType(num) {
 // Problem Statement:
 // Write a function that uses switch-case to convert temperature.
 
-
 function convertTemperature(value, scale) {
     switch (scale) { 
         case "C":
