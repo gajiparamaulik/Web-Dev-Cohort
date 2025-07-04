@@ -170,6 +170,7 @@ function convertTemperature(value, scale) {
 } 
 
 
+
 // 10. JS Conditionals
 // Create a basic calculator that performs +, -, *, / based on user input.
 // Problem Statement:
