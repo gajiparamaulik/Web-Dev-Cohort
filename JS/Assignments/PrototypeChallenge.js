@@ -82,7 +82,6 @@
 
 
 
-
 // 07. JS Prototype
 // Medium -Hints
 // Problem statement
@@ -91,8 +90,6 @@
 // Challenge
 // • Implement Employee constructor with name, position, and salary
 // • Attach applyBonus (percent) to the prototype to increase salary.
-
-
 
 
 
