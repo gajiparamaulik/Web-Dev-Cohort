@@ -45,7 +45,6 @@
 
 
 
-
 // 05. JS Prototype
 // Medium -Hints
 // Problem statement
@@ -55,7 +54,6 @@
 // Implement a constructor function ShoppingCart that initializes an empty items array.
 // • Attach addItem(price) to the prototype to add items.
 // • Attach getTotalPrice() to calculate the total price of items.
-
 
 
 
