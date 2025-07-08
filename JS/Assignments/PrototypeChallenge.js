@@ -33,7 +33,6 @@
 
 
 
-
 // 04. JS Prototype
 // Easy Hints
 // Problem statement
