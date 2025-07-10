@@ -138,3 +138,5 @@
 // • Attach applyDiscount(percent) and purchase(quantity) methods to the prototype (for memory efficiency).
 // • Ensure integer values for price after applying a discount.
 // • Handle edge cases like zero stock or excessive purchases.
+
+
