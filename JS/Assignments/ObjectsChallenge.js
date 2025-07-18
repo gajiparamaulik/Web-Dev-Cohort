@@ -24,7 +24,6 @@
 
 
 
-
 // 03. JS Objects
 // Easy Statement
 // You are building an online shopping platform. Some products have discounts, and some don't. 
