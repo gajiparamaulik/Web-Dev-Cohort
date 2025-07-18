@@ -12,7 +12,6 @@
 
 
 
-
 // 02. JS Objects
 // Easy Statement
 // You are developing a car rental service. Each car has a brand and model, but some cars don't have a color assigned yet. 
