@@ -35,7 +35,6 @@
 
 
 
-
 // 04. JS Objects
 // Easy Statement
 // For security reasons, when a user logs out, their password should be removed from the user object before storing it in logs 
