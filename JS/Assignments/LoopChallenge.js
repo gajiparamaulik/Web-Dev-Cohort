@@ -89,7 +89,6 @@ function countSteps(targetSteps) {
 
 
 
-
 // 06. JS Loops
 // You're planning a week's schedule and need to count the days you are working. You have an array where each element represents 
 // a day of the week. How can you calculate how many days you are working?
@@ -112,7 +111,6 @@ function countWorkingDays(days) {
   // Example usage: 
   const workSchedule = ["Monday", "Tuesday", "Friday", "sunday"];
   console.log(countWorkingDays(workSchedule)); // Output: 3
-
 
 
   
