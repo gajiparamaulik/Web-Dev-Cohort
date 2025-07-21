@@ -126,7 +126,6 @@ function totalStars(starLevels) {
 
 
 
-
 // 08. JS Loops
 // You're shopping for groceries and want to know the total cost of all the items in your cart. You have an array of item prices.
 // Problem Statement:
