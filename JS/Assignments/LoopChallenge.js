@@ -179,3 +179,4 @@ function shinyDiamondRug(n) {
 // When you want to print multiple lines, you can use '\n' to add a new line after each row of stars. 
 // This will help you keep the output organized and align it properly!
 
+
