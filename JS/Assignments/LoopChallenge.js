@@ -136,6 +136,7 @@ function totalPrice(prices) {
 }
 
 
+
 // 09. JS Loops
 // You've been tasked with designing the perfect shiny diamond rug cursh's room. They love stars, and you've decided to make a 
 // sparkling pattern using them. You need to help them create this rug, where the stars are arranged in the shape of a diamond! ✰✰
