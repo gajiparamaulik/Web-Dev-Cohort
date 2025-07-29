@@ -57,8 +57,6 @@ function removeStudent(bus) {
 
 
 
-
-
 // 05. JS Arrays
 // Easy
 // Your bookshelf is a mess! You need to arrange the books in alphabetical order.
