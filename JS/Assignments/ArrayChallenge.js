@@ -71,7 +71,6 @@ function removeStudent(bus) {
 
 
 
-
 // 07. JS Arrays
 // Easy
 // You lost your phone in a list of items. Find the index of "Phone".
