@@ -92,7 +92,6 @@ function removeStudent(bus) {
 
 
 
-
 // 10. JS Arrays
 // Easy
 // You and your friends are making a list of movies to watch. You want to check how many movies are in the list.
