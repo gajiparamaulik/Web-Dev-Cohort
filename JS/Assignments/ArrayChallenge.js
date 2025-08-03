@@ -43,7 +43,6 @@ function addPuppy(queue, puppyName) {
 
 
 
-
 // 04. JS Arrays
 // Easy
 // A school bus has students inside, but the first student in line needs to get off at the next stop. Remove the first student from the bus.
