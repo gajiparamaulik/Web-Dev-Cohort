@@ -20,7 +20,6 @@ function addGuest(guestList, newGuest) {
 // Problem Statement: 
 // Create a function that removes the last candy from the jar and returns the updated jar.
 
-
 function eatCandy(candyJar) {
     candyJar.pop();
     return candyJar;
