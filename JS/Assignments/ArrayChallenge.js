@@ -14,7 +14,6 @@ function addGuest(guestList, newGuest) {
 
 
 
-
 // 02. JS Arrays
 // Easy
 // You have a jar full of candies, but your little sibling keeps eating the last one! Your job is to remove the last candy from the jar.
@@ -26,7 +25,6 @@ function eatCandy(candyJar) {
     candyJar.pop();
     return candyJar;
 }
-
 
 
 
