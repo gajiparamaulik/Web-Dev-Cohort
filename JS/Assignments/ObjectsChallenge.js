@@ -87,7 +87,6 @@
 
 
 
-
 // 08. JS Objects
 // Medium Statement
 // In your web application, some objects contain unnecessary properties. To optimize performance, you need to remove all 
