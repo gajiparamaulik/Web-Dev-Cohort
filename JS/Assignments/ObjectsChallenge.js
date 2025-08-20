@@ -113,7 +113,6 @@
 
 
 
-
 // 10. JS Objects
 // Medium Statement
 // In many applications, data is stored in deeply nested objects. Accessing a property from a deeply nested object requires 
