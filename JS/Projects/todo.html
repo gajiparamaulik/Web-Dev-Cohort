@@ -33,3 +33,67 @@
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
+
+<script>
+    const addButton = document.getElementById("addBtn");
+const inputValue = document.getElementById("todoInput");
+const todoItemList = document.getElementById("todoItem");
+
+addButton.addEventListener('click', () => {
+    const value = inputValue?.value;
+
+    // <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input"></input>
+
+    const checkbox = document.createElement('input');
+    checkbox.classList.add('form-check-input');
+    checkbox.classList.add('mt-0');
+    checkbox.id = 'myCheckboxId';   
+    checkbox.type = 'checkbox';
+
+    // const checkedText = document.getElementById('myCheckboxId');
+    // if(!checkedText) {
+    //     console.log("yyyyyyyyy");
+    // } else {
+    //     console.log("nnnnnnnnnnn");
+    // }
+
+    const dataToStore = {
+        no: '',
+        title: value,
+        date: new Date() // Store date as ISO string for easy conversion
+    };
+
+    const jsonString = JSON.stringify(dataToStore);
+
+    localStorage.setItem("myNoteData", jsonString);
+
+
+
+    const li = document.createElement('li');
+    li.classList.add('title-text');
+    li.classList.add('form-control');
+    li.innerText = value;
+
+    const editIcon = document.createElement('i');
+    editIcon.classList.add('fas');
+    editIcon.classList.add('fa-edit');
+
+    editIcon.addEventListener('click', function() {
+        li.classList.add('form-control');
+    })
+
+    const closeIcon = document.createElement('i');
+    closeIcon.classList.add('fas');
+    closeIcon.classList.add('fa-window-close');
+
+    closeIcon.addEventListener('click', function() {
+        li.remove();
+    });
+
+    li.appendChild(checkbox);
+    li.appendChild(editIcon);
+    li.appendChild(closeIcon);
+    todoItemList.appendChild(li);
+    inputValue.value = "";
+});
+</script>
