@@ -1,4 +1,3 @@
-
 // 01. JS Arrays
 // Easy
 // You are organizing a party and have a list of invited guests. But just before the party starts, a new friend decides to join. 
