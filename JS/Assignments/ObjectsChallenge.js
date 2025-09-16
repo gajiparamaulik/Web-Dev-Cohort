@@ -73,7 +73,6 @@
 
 
 
-
 // 07. JS Objects
 // Medium Statement
 // You are working on a system that stores product details in an object. However, for some functionalities, the data needs to 
