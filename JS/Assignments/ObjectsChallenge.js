@@ -19,8 +19,8 @@
 // Challenge
 // Write a function that takes a car object and a color string, then adds the color property to the object.
 // Constraints
-// ⚫ car should be a valid object with at least brand and model properties.
-// ⚫ color should be a non-empty string, otherwise return "Invalid color".
+//  car should be a valid object with at least brand and model properties.
+//  color should be a non-empty string, otherwise return "Invalid color".
 
 
 
