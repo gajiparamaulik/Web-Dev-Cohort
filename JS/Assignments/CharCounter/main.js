@@ -1,4 +1,3 @@
-
 const textInput = document.getElementById("inputField");
 const charCount = document.getElementById("RemainingTextChar");
 
