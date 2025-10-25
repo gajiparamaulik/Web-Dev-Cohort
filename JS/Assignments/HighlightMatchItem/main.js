@@ -7,6 +7,6 @@ ulEle.forEach(ul => {
    
     liEle.forEach(li => {
         console.log(li.textContent);
-
+        
     });
 });
