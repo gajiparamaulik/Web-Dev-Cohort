@@ -121,7 +121,17 @@ function countWorkingDays(days) {
 // of stars.
 
 function totalStars(starLevels) {
+  let total = 0; // to store the total number of stars
 
+  // Outer loop → goes through each level (subarray)
+  for (let i = 0; i < starLevels.length; i++) {
+    // Inner loop → goes through each star in that level
+    for (let j = 0; j < starLevels[i].length; j++) {
+      total += starLevels[i][j]; // add the star count
+    }
+  }
+
+  return total; // return total stars
 }
 
 
