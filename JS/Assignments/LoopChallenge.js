@@ -191,3 +191,13 @@ function shinyDiamondRug(n) {
 // This will help you keep the output organized and align it properly!
 
 
+// example
+
+        let age = 20;
+        if (age < 18) {
+          console.log("Minor");
+        } else if (age >= 18 && age < 65) {
+          console.log("Adult");
+        } else {
+          console.log("Senior");
+        }
