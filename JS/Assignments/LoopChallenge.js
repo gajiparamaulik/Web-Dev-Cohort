@@ -142,8 +142,19 @@ function totalStars(starLevels) {
 // Create a function that takes an array of item prices and returns the total cost.
 
 function totalPrice(prices) {
-  
+  let total = 0; // start with 0
+
+  for (let i = 0; i < prices.length; i++) {
+    total += prices[i]; // add each price to total
+  }
+
+  return total; // return the total cost
 }
+
+// Example:
+const items = [10.5, 20, 5.75, 12];
+console.log(totalPrice(items)); // Output: 48.25
+
 
 
 
