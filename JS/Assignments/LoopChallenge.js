@@ -218,3 +218,7 @@ function factorial(n) {
 }
 
 factorial(5);
+
+
+
+// Create a pyramid pattern  Using a loop, print a pyramid pattern of stars (*).
