@@ -202,13 +202,19 @@ function shinyDiamondRug(n) {
 // This will help you keep the output organized and align it properly!
 
 
-// example
 
-        let age = 20;
-        if (age < 18) {
-          console.log("Minor");
-        } else if (age >= 18 && age < 65) {
-          console.log("Adult");
-        } else {
-          console.log("Senior");
-        }
+// Write a function that calculates the factorial of a number using a loop. E.g., factorial(5) should return 120.
+
+function factorial(n) {
+  if(n < 0) {
+    console.log('Please enter more then 0.');
+  }
+   
+  let number = 1;
+  for(let i = 1; i <= n; i++) {
+    number *= i;
+  } 
+  console.log(number);
+}
+
+factorial(5);
