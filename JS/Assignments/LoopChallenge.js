@@ -222,3 +222,25 @@ factorial(5);
 
 
 // Create a pyramid pattern  Using a loop, print a pyramid pattern of stars (*).
+
+let rows = 5;
+
+for(let i = 1; i <= rows; i++) {
+  let starPat = "";
+  
+  for(let j = 1; j <= rows; j++) {
+    if(j < i) {
+      starPat += " ";
+    } else {
+      starPat += "*";
+    }
+  }
+  console.log(starPat);
+}
+
+// Output :
+// *****
+//  ****
+//   ***
+//    **
+//     *
