@@ -262,3 +262,21 @@ for(let i = 0; i < arr.length; i++) {
 
 console.log('Odd numbers: ', oddNumber);
 console.log('Sum of odd numbers: ', sum);
+
+
+// Find the factorial of a number using for loop.
+// Write a function that calculates the factorial of a number using a loop. E.g., factorial(5) should return 120.
+
+function factorial(n) {
+  if(n < 0) {
+    console.log('Factorial is not accept negative numbers.');
+  }
+   
+  let number = 1;
+  for(let i = 1; i <= n; i++) {
+    number *= i;
+  } 
+  console.log(number);
+}
+
+factorial(5);
