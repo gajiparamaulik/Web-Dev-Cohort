@@ -280,3 +280,6 @@ function factorial(n) {
 }
 
 factorial(5);
+
+// Write a function in JavaScript to check if a given number is prime or not
+
