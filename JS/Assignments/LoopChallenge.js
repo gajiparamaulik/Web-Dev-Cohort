@@ -285,3 +285,5 @@ factorial(5);
 
 // check whether a number is prime in JavaScript
 
+// rm -rf node_modules package-lock.json && npm cache clean --force && npm install
+
