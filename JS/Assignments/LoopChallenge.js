@@ -283,3 +283,5 @@ factorial(5);
 
 // Write a function in JavaScript to check if a given number is prime or not
 
+// check whether a number is prime in JavaScript
+
