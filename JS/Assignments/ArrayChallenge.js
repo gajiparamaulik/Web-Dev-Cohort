@@ -92,3 +92,24 @@ function removeStudent(bus) {
 // You and your friends are making a list of movies to watch. You want to check how many movies are in the list.
 // Problem Statement: Create a function that returns the number of movies in the movie list.
 
+
+// Check Palindrom
+
+function isPalindrome(str) {
+  let start = 0;
+  let end = str.length - 1;
+
+  while (start < end) {
+    if (str[start] !== str[end]) {
+      return false; // mismatch found
+    }
+    start++;
+    end--;
+  }
+  return true; // all characters matched
+}
+
+// Test
+console.log(isPalindrome("madam")); // true
+console.log(isPalindrome("hello")); // false
+console.log(isPalindrome("racecar")); // true
