@@ -201,8 +201,6 @@ function shinyDiamondRug(n) {
 // When you want to print multiple lines, you can use '\n' to add a new line after each row of stars. 
 // This will help you keep the output organized and align it properly!
 
-
-
 // Write a function that calculates the factorial of a number using a loop. E.g., factorial(5) should return 120.
 
 function factorial(n) {
@@ -286,4 +284,3 @@ factorial(5);
 // check whether a number is prime in JavaScript
 
 // rm -rf node_modules package-lock.json && npm cache clean --force && npm install
-
