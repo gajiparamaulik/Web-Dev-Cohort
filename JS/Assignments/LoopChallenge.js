@@ -244,40 +244,7 @@ for(let i = 1; i <= rows; i++) {
 //     *
 
 
-// [7, 11, 14, 21] get odd numbers and sum of those number using JS.
 
-const arr = [7, 11, 14, 21];
-
-let oddNumber = [];
-let sum = 0;
-
-for(let i = 0; i < arr.length; i++) {
-  if(arr[i] % 2 !== 0) {
-    oddNumber.push(arr[i]);
-    sum += arr[i];
-  }
-}
-
-console.log('Odd numbers: ', oddNumber);
-console.log('Sum of odd numbers: ', sum);
-
-
-// Find the factorial of a number using for loop.
-// Write a function that calculates the factorial of a number using a loop. E.g., factorial(5) should return 120.
-
-function factorial(n) {
-  if(n < 0) {
-    console.log('Factorial is not accept negative numbers.');
-  }
-   
-  let number = 1;
-  for(let i = 1; i <= n; i++) {
-    number *= i;
-  } 
-  console.log(number);
-}
-
-factorial(5);
 
 // Write a function in JavaScript to check if a given number is prime or not
 
