@@ -14,3 +14,21 @@ function showMessage() {
 }
 
 firstTask(showMessage); // ✅ works perfectly
+
+
+
+
+// closures in JavaScript
+
+function outer() {
+  let name = "Alice"; // variable in outer function
+
+  function inner() {
+    console.log("Hello " + name); // inner can access outer's variable
+  }
+
+  return inner; // returning inner function
+}
+
+const greet = outer(); // outer() executes and returns inner()
+greet(); // calling inner function
