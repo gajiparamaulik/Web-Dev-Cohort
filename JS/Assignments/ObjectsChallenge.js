@@ -127,3 +127,12 @@
 // • The function should handle deeply nested objects.
 
 
+if(n < 0) {
+    console.log('Please enter more then 0.');
+  }
+   
+  let number = 1;
+  for(let i = 1; i <= n; i++) {
+    number *= i;
+  } 
+  console.log(number);
