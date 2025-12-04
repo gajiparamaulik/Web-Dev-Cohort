@@ -125,14 +125,3 @@
 // • The key path should be a string with dot notation (.) separating keys.
 // • If a key is missing, return "Key not found".
 // • The function should handle deeply nested objects.
-
-
-if(n < 0) {
-    console.log('Please enter more then 0.');
-  }
-   
-  let number = 1;
-  for(let i = 1; i <= n; i++) {
-    number *= i;
-  } 
-  console.log(number);
