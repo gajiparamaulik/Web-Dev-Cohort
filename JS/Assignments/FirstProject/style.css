@@ -38,3 +38,8 @@ li {
   padding: 1rem;
   border: 1px solid #ccc;
 }
+
+.box-alignment {
+  position: inherit;
+  margin: 0;
+}
