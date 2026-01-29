@@ -11,3 +11,6 @@ function addGoal() {
 }
 
 buttonEl.addEventListener('click', addGoal);
+
+// Required Skills & Qualifications
+// 7+ years of professional software development experience.
