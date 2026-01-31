@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Monkey Emoji Status</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <span>{{ emoji }}</span>
+        <h2>{{ statusCode }}</h2>
+        <p>{{ statusMessage }}</p>
+        <a class="back-btn" href="www.google.com" target="_blank">Back To Previous Page</a>
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue;
+
+        createApp({
+            setup() {
+                const emoji = ref('🙈🙉🙊');
+                const statusCode =  ref('404');
+                const statusMessage = ref('Motivational');
+
+                return { emoji, statusCode, statusMessage };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
