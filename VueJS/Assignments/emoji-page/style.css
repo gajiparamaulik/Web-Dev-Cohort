@@ -13,6 +13,22 @@ body {
     align-items: center;
 }
 
+/* min-height: 100vh;
+→ body takes full screen height
+
+background: linear-gradient(...)
+→ soft color background
+
+display: flex;
+→ turns the body into a flex container
+(flex = easy centering system)
+
+justify-content: center;
+→ center left to right
+
+align-items: center;
+→ center top to bottom */
+
 /* Main card */
 #app {
     background: #cbcbcb;

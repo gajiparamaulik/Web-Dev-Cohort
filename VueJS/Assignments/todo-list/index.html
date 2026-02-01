@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Vue 3 Todo App</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>My Todo List</h1>
+
+        <div>
+            <input type="text" v-model="newTodo" @keyup.enter="addTodo" placeholder="What needs to be done?">
+            <button @click="addTodo">Add</button>
+        </div>
+        
+        <div class="todo-item" v-for="todo in todos" :key="todo.id">
+            <span>{{ todo.id }}</span>
+            <span>{{ todo.text }}</span>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref } = Vue;
+
+        createApp({
+            setup() {
+                const newTodo = ref('');
+                const todos = ref([
+                    {id: 1, text: 'First Test', completed: false}
+                ]);
+
+                const addTodo = () => {
+                    if(newTodo.value.trim()) {
+                        todos.value.push({
+                            id: Date.now(),
+                            text: newTodo.value,
+                            completed: false
+                        });
+                        newTodo.value = '';
+                    }
+                };
+                
+                return {
+                    todos, newTodo, addTodo
+                }
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
