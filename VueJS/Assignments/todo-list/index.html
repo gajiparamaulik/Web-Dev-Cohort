@@ -9,26 +9,37 @@
 <body>
     <div id="app">
         <h1>My Todo List</h1>
-
+        <p>{{ remainingCount }} {{ remainingCount === 1 ? 'Task' : 'Tasks' }} Remaining</p>
         <div>
             <input type="text" v-model="newTodo" @keyup.enter="addTodo" placeholder="What needs to be done?">
             <button @click="addTodo">Add</button>
         </div>
+
+        <p v-if="todos.length === 0" style="text-align: center; color: #999;">
+            No Todos Yet. Add one above!
+        </p>
         
-        <div class="todo-item" v-for="todo in todos" :key="todo.id">
-            <span>{{ todo.id }}</span>
-            <span>{{ todo.text }}</span>
+        <div @click="toggleComplete(todo.id)" class="todo-item" v-for="todo in todos" :key="todo.id">
+            <span :class="{ completed: todo.completed }">
+                {{ todo.text }}
+            </span>
+            <div style="font-size: 12px; color: #999; margin-top: 4px;">
+               {{ formatDate(todo.createdAt) }}
+            </div>
+            <button @click="deleteTodo(todo.id)" class="delete-btn">
+                Delete
+            </button>
         </div>
     </div>
 
     <script>
-        const { createApp, ref } = Vue;
+        const { createApp, ref, computed } = Vue;
 
         createApp({
             setup() {
                 const newTodo = ref('');
                 const todos = ref([
-                    {id: 1, text: 'First Test', completed: false}
+                    // {id: 1, text: 'First Test', completed: false}
                 ]);
 
                 const addTodo = () => {
@@ -36,14 +47,43 @@
                         todos.value.push({
                             id: Date.now(),
                             text: newTodo.value,
-                            completed: false
+                            completed: false,
+                            createdAt: new Date()
                         });
                         newTodo.value = '';
                     }
                 };
+
+                const toggleComplete = (id) => {
+                    const todo = todos.value.find(t => t.id === id);
+                    if(todo) {
+                        todo.completed = !todo.completed;
+                    }
+                }
+
+                const deleteTodo = (id) => {
+                    todos.value = todos.value.filter(t => t.id !== id);
+                }
+
+                const remainingCount = computed(() => {
+                    return todos.value.filter(t => !t.completed).length;
+                });
+
+                const formatDate = (date) => {
+                    const d = new Date(date);
+
+                    const options = {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    }
+                    return d.toLocaleDateString('en-US', options);
+                }
                 
                 return {
-                    todos, newTodo, addTodo
+                    todos, newTodo, addTodo, toggleComplete, deleteTodo, formatDate, remainingCount
                 }
             }
         }).mount('#app');
