@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>User List - Options API</title>
+    <title>Options API - User List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   </head>
@@ -20,11 +20,14 @@
                 </tr>
             </thead>
             <tbody class="table-group-divider">
-                <tr v-for="(user, index) in filtedUsers" :key="user.index">
+                <tr v-if="filtedUsers.length > 0" v-for="(user, index) in filtedUsers" :key="user.index">
                     <th scope="row">{{ index + 1 }}</th>
                     <td>{{ user.name }}</td>
                     <td>{{ user.email }}</td>
                     <td>{{ user.website }}</td>
+                </tr>
+                <tr v-else>
+                    <td colspan="3" class="text-center">No Data Found...</th>
                 </tr>
             </tbody>
         </table>
