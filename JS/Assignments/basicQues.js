@@ -18,7 +18,7 @@ firstTask(showMessage); // ✅ works perfectly
 
 
 
-// closures in JavaScript
+// closures in JavaScript For Interview Preparation
 
 function outer() {
   let name = "Alice"; // variable in outer function
