@@ -21,6 +21,9 @@ multiplicationFun(20, 20);
 
 
 // Unlimited Arguments Accept
+// Array-like, but not an Array: It has indexed elements (e.g., arguments[0], arguments[1]) and a length property, 
+// but it does not have built-in Array methods like forEach(), map(), or pop(). You can convert it to a real Array 
+// using Array.from(arguments) or the spread syntax [...arguments].
 function addNumbers() {
     let val = 0;
     for(let i = 0; i < arguments.length; i++) {
@@ -29,7 +32,7 @@ function addNumbers() {
     return val;
 }
 
-function addNumbersV2(...numbers) {
+function addNumbersV2(...numbers) { // Modern Alternative: Rest Parameters 
     let val = 0;
     for(let i = 0; i < numbers.length; i++) {
         val = val + numbers[i];
