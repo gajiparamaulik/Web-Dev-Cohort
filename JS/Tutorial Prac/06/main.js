@@ -41,6 +41,7 @@ sayHelloWorld();
 
 
 // 4. This Keyword
+// Normal function use then inside myfunction this keyword return obj reference
 const obj = {
     value: 20,
     myFunction: function () {
@@ -48,7 +49,7 @@ const obj = {
     }
 }
 
-// Arrow Function
+// Arrow Function use then inside myFunction2 this keyword return window object
 const obj2 = {
     value: 60,
     myFunction2: () => {
