@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners In javaScript</title>
+</head>
+<body>
+    
+    <nav>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, cumque!</p>
+    </nav>
+
+    <div class="block">
+        <h4 id="name-block">Hello, There...!</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magni autem consectetur?</p>
+    </div>
+
+    <button id="clickBtn">Click Me</button>
+
+    <div id="my-container"></div>
+
+    <script>
+        // function handleClicked() {
+        //     console.log("button Clicked...");
+        // }
+
+        const btnEle = document.getElementById('clickBtn');
+        const nameId = document.getElementById('name-block');
+
+        // btnEle.onclick = function() {
+        //     console.log('Again Button Clicked...!');
+        // }
+
+        function doSomething() {
+            console.log('function called.');
+        }
+
+        btnEle.addEventListener('click', doSomething());
+        
+        btnEle.addEventListener('click', function(){
+            console.log('addEventListener Called.');
+        });
+
+        btnEle.addEventListener('click', () => {
+            console.log("wwwwwwwwww");
+            nameId.style.color = 'red';
+        });
+
+
+        let count = 1;
+        const container = document.getElementById('my-container');
+
+        btnEle.addEventListener('click', () => {
+            const el = document.createElement('li');
+            el.innerHTML = count;
+            container.appendChild(el);
+            count++;
+        });
+    </script>
+</body>
+</html>
