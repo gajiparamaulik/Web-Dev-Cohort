@@ -52,7 +52,7 @@ let lastName = "Choudhary"
 
 let fullName = firstName + " " + lastName //hiteshchoudhary
 
-let message = "Hello World"
+let message = "Hello World";
 
 console.log(message.toUpperCase());
 console.log(message.indexOf("W"));

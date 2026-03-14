@@ -5,7 +5,8 @@ function sumFactory(nums) {
     let sum = 0;
 
     for(let i = 0; i < nums.length; i++) {
-        sum = sum + nums[i];
+        // sum = sum + nums[i];
+        sum += nums[i];
     }
 
     return sum;
@@ -13,3 +14,6 @@ function sumFactory(nums) {
 
 let result = sumFactory(myArray);
 console.log("result", result);
+
+let anotherResult = sumFactory([45, 85, 60, 100]);
+console.log(`My Another Result is ${anotherResult}`);
