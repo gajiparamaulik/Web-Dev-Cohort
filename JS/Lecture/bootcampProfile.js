@@ -69,4 +69,4 @@ function calculateGrade(score) {
 }
 let grade = calculateGrade(85);
 // console.log("score", grade);
-console.log(calculateGrade(70));
+// console.log(calculateGrade(70));
