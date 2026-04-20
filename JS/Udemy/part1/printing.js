@@ -1,4 +1,4 @@
-console.log('working');
+// console.log('working');
 
 process.stdout.write('test');
 process.stdout.write('1');
